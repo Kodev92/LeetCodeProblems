@@ -1,4 +1,4 @@
-package leetcode;
+package leetcodeAlgo;
 
 public class _167_TwoSumII_InputArrayIsSorted {
     public int[] twoSum(int[] numbers, int target) {

@@ -1,7 +1,4 @@
-package leetcode;
-
-import java.lang.reflect.Array;
-import java.util.Arrays;
+package leetcodeAlgo;
 
 class Solution704 {
     public int search(int[] nums, int target) {

@@ -1,4 +1,4 @@
-package leetcode;
+package leetcodeAlgo;
 
 public class _344_ReverseString {
     public void reverseString(char[] s) {

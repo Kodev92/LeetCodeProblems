@@ -1,4 +1,4 @@
-package leetcode;
+package leetcodeAlgo;
 
 public class _977_SquaresOfASortedArray {
     public int[] sortedSquares(int[] nums) {

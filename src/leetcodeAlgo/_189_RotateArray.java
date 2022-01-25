@@ -1,4 +1,4 @@
-package leetcode;
+package leetcodeAlgo;
 
 public class _189_RotateArray {
 

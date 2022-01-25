@@ -1,4 +1,4 @@
-package leetcode;
+package leetcodeAlgo;
 
 public class _557_ReverseWordsInAStringIII {
     public String reverseWords(String s) {

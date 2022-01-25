@@ -1,6 +1,6 @@
-package leetcode;
+package leetcodeAlgo;
 
-public class MyMath {
+public class Playground {
 
     public int gcd(int a, int b){
         int result;
