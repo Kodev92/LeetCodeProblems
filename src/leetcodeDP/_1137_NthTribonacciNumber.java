@@ -1,10 +1,23 @@
 package leetcodeDP;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class _1137_NthTribonacciNumber {
+// Crazy cool solution
+//    Time O(N)
+//    Space O(1)
 
+    //    public int tribonacci(int n) {
+//        if (n < 2) return n;
+//        int a = 0, b = 1, c = 1, d;
+//        while (n-- > 2) {
+//            d = a + b + c;
+//            a = b;
+//            b = c;
+//            c = d;
+//        }
+//        return c;
+//    }
     int[] tribo = new int[40];
 
     public int tribonacci(int n) {
@@ -19,18 +32,4 @@ public class _1137_NthTribonacciNumber {
     }
 
 }
-// Crazy cool solution
-//    Time O(N)
-//    Space O(1)
 
-//    public int tribonacci(int n) {
-//        if (n < 2) return n;
-//        int a = 0, b = 1, c = 1, d;
-//        while (n-- > 2) {
-//            d = a + b + c;
-//            a = b;
-//            b = c;
-//            c = d;
-//        }
-//        return c;
-//    }
