@@ -16,7 +16,7 @@ public class _566_ReshapeTheMatrix {
                     a++;
                 }
                 newMat[a][b] = mat[i][j];
-
+                b++;
         }
         return newMat;
     }
