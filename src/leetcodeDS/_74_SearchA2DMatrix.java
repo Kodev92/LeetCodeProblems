@@ -8,7 +8,7 @@ public class _74_SearchA2DMatrix {
 
         while (l <= r) {
             m = l + (r - l) / 2;
-            int mElemValue = matrix[m / matrix.length][m % matrix.length];
+            int mElemValue = matrix[m / matrix[0].length][m % matrix[0].length];
             if (mElemValue < target)
                 l = m + 1;
             else if (mElemValue > target)
